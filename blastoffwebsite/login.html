@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <script src="login.js"></script>
+    <link href="third.css" rel="stylesheet" type="text/css"/>
+<head>
+    <title>
+        Mission 3 Login
+    </title>
+</head>
+
+<body>
+    <h1 id="loginTitleStyle">Welcome</h1>
+    <h3>Plese verify your identity</h3><br>
+    <p id="loginStatus">Status</p><br>
+    <form id="creditSubmit" onsubmit="return false">
+        First Name: <input type="text" id="fName"/> <br>
+        Last Name: <input type="text" id="lName"/><br>
+        Badge Number: <input type="number" id="badgeID"/><br>
+        <input type="submit" onclick="checkCreds();"/>
+    </form>
+</body>
+</html>

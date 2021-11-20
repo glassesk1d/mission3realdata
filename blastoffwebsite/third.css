@@ -1,0 +1,23 @@
+h1{
+    color: floralwhite;
+}
+body{
+    background-color: crimson;
+    color: floralwhite;
+}
+.button{
+    width: 53px;
+    height: 53px;
+  background-color: black;
+  border-radius: 30px;
+  color: crimson;
+  border-color: floralwhite;
+}
+.wideButton{
+    width: 100px;
+    height: 53px;
+  background-color: black;
+  border-radius: 30px;
+  color: crimson;
+  border-color: floralwhite;
+}
